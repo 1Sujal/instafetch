@@ -6,24 +6,23 @@ A simple Python command-line utility to scrape and download high-quality videos 
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone [https://github.com/1sujal/instafetch.git](https://github.com/1sujal/instafetch.git)
    cd instafetch
-   ```
+```
 2. Install the dependencies:
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
       
-Usage
 3. Run the program from your terminal by passing the Instagram URL as an argument:
 
-   ```bash
+```bash
 python main.py "[https://www.instagram.com/p/DTN22HmiHjs/](https://www.instagram.com/p/DTN22HmiHjs/)"
-   ```
-Custom Filename
-You can specify a custom output filename using the -o or --output flag:
+```
+4. You can specify a custom output filename using the -o or --output flag:
 
-   ```bash
-
+```bash
 python main.py "[https://www.instagram.com/p/DTN22HmiHjs/](https://www.instagram.com/p/DTN22HmiHjs/)" -o my_favorite_reel.mp4
-   ```
+```
