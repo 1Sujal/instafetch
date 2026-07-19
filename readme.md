@@ -19,10 +19,10 @@ pip install -r requirements.txt
 3. Run the program from your terminal by passing the Instagram URL as an argument:
 
 ```bash
-python main.py "[https://www.instagram.com/p/DTN22HmiHjs/](https://www.instagram.com/p/DTN22HmiHjs/)"
+python main.py "https://www.instagram.com/p/DTN22HmiHjs/"
 ```
 4. You can specify a custom output filename using the -o or --output flag:
 
 ```bash
-python main.py "[https://www.instagram.com/p/DTN22HmiHjs/](https://www.instagram.com/p/DTN22HmiHjs/)" -o my_favorite_reel.mp4
+python main.py "https://www.instagram.com/p/DTN22HmiHjs/" -o my_favorite_reel.mp4
 ```
